@@ -2,11 +2,11 @@ import React from 'react'
 
 const FullName = props => {
   return (
-    <h1>
+    <h6>
     <div className="nam"></div>
     <div>{props.children} </div>
     <div>{props.name}</div>
-    </h1>
+    </h6>
   )
 }
 FullName.defaultProps = {
